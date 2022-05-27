@@ -44,4 +44,32 @@ age = Number(age);
 console.log(typeof age);
 age += 1;
 
-console.log("Happy Birthday! You are", age, "year old")
+console.log("Happy Birthday! You are", age, "year old");
+
+
+
+let x;
+let y;
+let z;
+
+x = Number("3.14");
+y = String(3.14);
+z = Boolean("")
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+
+console.log("---CONST---");
+
+const PI  = 3.14159;
+let radius;
+let circumference;
+
+radius = window.prompt("Enter the radius of a circle: ");
+radius = Number(radius);
+
+circumference = 2 * PI * radius;
+
+console.log("The circumference is:", circumference);
